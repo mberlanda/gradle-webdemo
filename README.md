@@ -53,3 +53,12 @@ $ gradle wrapper --gradle-version=4.10.3
 * Add `gretty` plugin and run the app
 
 <https://github.com/gradle/gradle/issues/11843>
+
+## Unit test the servlet using Mockito
+
+<https://site.mockito.org/>
+
+```sh
+$ ./gradlew test
+$ ./gradlew build
+```
