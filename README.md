@@ -29,3 +29,12 @@ SDKMAN 5.7.4+362
 $ sdk install gradle 6.3
 ```
 
+## Create the structure of a web application
+
+<https://docs.gradle.org/4.10.3/userguide/war_plugin.html>
+
+```sh
+mkdir -p webdemo/src/main/java
+mkdir -p webdemo/src/main/webapp
+mkdir -p webdemo/src/test/java
+```
