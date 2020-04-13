@@ -34,14 +34,22 @@ $ sdk install gradle 6.3
 <https://docs.gradle.org/4.10.3/userguide/war_plugin.html>
 
 ```sh
-mkdir -p webdemo/src/main/java
-mkdir -p webdemo/src/main/webapp
-mkdir -p webdemo/src/test/java
+mkdir -p src/main/java
+mkdir -p src/main/webapp
+mkdir -p src/test/java
 ```
 
 ## Add a Gradle build file
 
-```
+```sh
 $ touch webdemo/build.gradle.kts
 $ gradle wrapper --gradle-version=4.10.3
 ```
+
+## Run the application
+
+* Add a servlet and metadata to the project
+* JSP pages to the demo application
+* Add `gretty` plugin and run the app
+
+<https://github.com/gradle/gradle/issues/11843>

@@ -1,5 +1,6 @@
 plugins {
     war
+    id("org.gretty") version "3.0.1"
 }
 
 repositories {
