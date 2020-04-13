@@ -38,3 +38,10 @@ mkdir -p webdemo/src/main/java
 mkdir -p webdemo/src/main/webapp
 mkdir -p webdemo/src/test/java
 ```
+
+## Add a Gradle build file
+
+```
+$ touch webdemo/build.gradle.kts
+$ gradle wrapper --gradle-version=4.10.3
+```
