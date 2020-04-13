@@ -34,16 +34,16 @@ $ sdk install gradle 6.3
 <https://docs.gradle.org/4.10.3/userguide/war_plugin.html>
 
 ```sh
-mkdir -p src/main/java
-mkdir -p src/main/webapp
-mkdir -p src/test/java
+mkdir -p webdemo/src/main/java
+mkdir -p webdemo/src/main/webapp
+mkdir -p webdemo/src/test/java
 ```
 
 ## Add a Gradle build file
 
 ```sh
 $ touch webdemo/build.gradle.kts
-$ gradle wrapper --gradle-version=4.10.3
+$ gradle wrapper --gradle-version=6.3
 ```
 
 ## Run the application
@@ -62,3 +62,8 @@ $ gradle wrapper --gradle-version=4.10.3
 $ ./gradlew test
 $ ./gradlew build
 ```
+
+## Add a functional test
+
+* <https://github.com/bonigarcia/webdrivermanager>
+* <https://www.selenium.dev/>
